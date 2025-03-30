@@ -1,7 +1,7 @@
 return {
     timeout = 10000,
     maxSpikes = 5,
-    policePlatePrefix = 'LSPD',
+    policePlatePrefix = 'MET',
     objects = {
         cone = {model = `prop_roadcone02a`, freeze = false},
         barrier = {model = `prop_barrier_work06a`, freeze = true},
@@ -48,7 +48,7 @@ return {
         evidence = { -- Not currently used, use ox_inventory evidence system
         },
         stations = {
-            {label = 'Mission Row Police Station', coords = vec3(434.0, -983.0, 30.7)},
+            {label = 'Sinner St Police Station', coords = vec3(434.0, -983.0, 30.7)},
             {label = 'Sandy Shores Police Station', coords = vec3(1853.4, 3684.5, 34.3)},
             -- {label = 'Vinewood Police Station', coords = vec3(637.1, 1.6, 81.8)},
             -- {label = 'Vespucci Police Station', coords = vec3(-1092.6, -808.1, 19.3)},
