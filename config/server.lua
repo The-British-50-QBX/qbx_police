@@ -5,6 +5,7 @@ return {
     validLicenses = { -- valid licenses
         driver = true,
         weapon = true,
+        hunting = true,
     },
     towJobs = { -- tow jobs
         tow = true,
